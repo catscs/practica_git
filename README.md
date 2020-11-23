@@ -1,98 +1,96 @@
-# Practica git
+# Práctica git
 
-## 11
+### **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
 
-> Lo he utilizado para deshacer el último commit y dejar mi working copy como estaba antes.
+Lo he utilizado para deshacer el último commit y dejar mi working copy como estaba antes.
 
 ```
 git reset --hard HEAD~1
 ```
 
-## 12
+### **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
 
-> para ver los pasos que he seguido y ver la referencia del commit.
+para ver los pasos que he seguido y ver la referencia del commit.
 
 ```
 git reflog
 ```
 
-> para moverse al commit que tenía los cambios.
+para moverse al commit que tenía los cambios.
 
 ```
 git checkout 76e7566
 ```
 
-> para eliminar la rama que tenía los cambios antiguos.
+para eliminar la rama que tenía los cambios antiguos.
 
 ```
 git branch -d styled
 ```
 
-> para crear la rama styled.
+para crear la rama styled.
 
 ```
 git branch styled
 ```
 
-> me muevo a la rama styled.
+me muevo a la rama styled.
 
 ```
 git checkout styled
 ```
 
-## 13
+### **El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?**
 
-> No causó ningún conflicto, porque no se hizo ningún cambio en la rama master con ese mismo archivo.
+No causó ningún conflicto, porque no se hizo ningún cambio en la rama master con ese mismo archivo.
 
-## 19
+### **El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**
 
-> Sí causó un conflicto porque git detectó que se había hecho un cambio en ese mismo archivo en dos ramas distintas.
+Sí causó un conflicto porque git detectó que se había hecho un cambio en ese mismo archivo en dos ramas distintas.
 
-## 20
+### **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
 
-> No causó ningún conflicto porque en master no tiene cambios recientes en ese mismo archivo, tiene cambios antiguos por eso los añade.
+No causó ningún conflicto porque en master no tiene cambios recientes en ese mismo archivo, tiene cambios antiguos por eso los añade.
 
-## 21
+### **¿Qué comando o comandos utilizaste en el paso 25?**
 
-> Utilice un alias que me había creado.
+Utilice un alias que me había creado.
 
 ```
 git graph
 ```
 
-> Este es el comando que se utiliza.
+Este es el comando que se utiliza.
 
 ```
 git log --graph --oneline
 ```
 
-## 25
-
 ![Imagen del diagrama](./log.png)
 
-## 26
+### **El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
 
-> Si que es fast forward, porque están en el mismo punto del diagrama y no se pierde lar referencia de esa rama.
+Si que es fast forward, porque están en el mismo punto del diagrama y no se pierde lar referencia de esa rama.
 
-## 27
+### **¿Qué comando o comandos utilizaste en el paso 27?**
 
 ```
 git reset HEAD~1
 ```
 
-## 28
+### **¿Qué comando o comandos utilizaste en el paso 28?**
 
 ```
 git restore git-nuestro.md
 ```
 
-## 29
+### **¿Qué comando o comandos utilizaste en el paso 29?**
 
 ```
 git branch -D title
 ```
 
-## 30
+### **¿Qué comando o comandos utilizaste en el paso 30?**
 
 ```
 git reflog
@@ -101,14 +99,14 @@ git branch -d master
 git checkout -b master
 ```
 
-## 32
+### **¿Qué comando o comandos usaste en el paso 32?**
 
 ```
 git log
 git reset --hard HEAD~3
 ```
 
-## 33
+### **¿Qué comando o comandos usaste en el punto 33?**
 
 ```
 git reflog
